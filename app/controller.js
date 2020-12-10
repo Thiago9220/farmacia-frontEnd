@@ -10,8 +10,8 @@
 	function controlador($scope, $http) {
 
 		var vm = this;
-		vm.HOST_HTTP = "https://farmacia-backend.herokuapp.com/";
-
+		vm.HOST_HTTP = "http://localhost:3334/";
+//	vm.HOST_HTTP = "https://farmacia-backend.herokuapp.com/";
 		var atualizar = document.querySelector("#atualizar");
 		var enviar = document.querySelector("#enviar");
 
